@@ -1,0 +1,26 @@
+Create a sample csv data of 10 rows with coloums
+Transaction_ID
+Customer_ID
+Card_ID
+Merchant_Name
+Transaction_Amount
+Transaction_Date
+Currency
+Payment_Method
+Card_Type
+Last_4_Digits
+Card_Issuer
+3D_Secure_Status
+Transaction_Status
+
+Transaction_ID,Customer_ID,Card_ID are unique string identifiers
+Merchant_Name is the name of merchant like Best Electronics Inc etc
+Transaction_Amount is string with value as $500.00, $999.99 etc and dont put comma if its 4 digit amount
+Transaction_Date is a date of format YYYY-MM-DD
+Currency can be USD, EUR, GBP etc
+Payment_Method can be Credit or Debit card or Digital wallet
+Card_Type can be Visa Mastercard Amex etc
+Last_4_Digits is a 4 digit number
+Card_Issuer can be a any american bank
+3D_Secure_Status can be Verified or Not Verified
+Transaction_Status can be Completed, Declined or Chargeback Initiated

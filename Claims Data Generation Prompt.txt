@@ -1,0 +1,29 @@
+Create a sample csv data of 10 rows with coloums
+Claim_ID
+Dispute_ID
+Transaction_ID
+Customer_ID
+Claim_Status
+Claim_Date
+Claim_Type
+Reason_Code
+Merchant_Name
+Claim_Amount
+Review_Required
+Reviewed_By
+Final_Decision
+Trans_detailsPOS/MOTO
+Auth_dataPOS
+Interview_notes
+
+Claim_ID,Dispute_ID,Transaction_ID,Customer_ID are unique string identifiers
+Claim_Status can have values Approved, Rejected, Pending
+Claim_Date is a date of format YYYY-MM-DD
+Claim_Type can be Stop Payment, Fraud Dispute_ID
+Reason_Code could be a 4 digit number
+Merchant_Name is the name of merchant like Best Electronics Inc etc
+Claim_Amount is string with value as $500.00, $999.99 etc
+Review_Required can be Yes or No
+Reviewed_By will be a name if Review_Required is Yes or else its a -
+Final_Decision can be Approved, Further Investigation, Under Review, Escalated
+Remaing coloums you can fill with a string based on what you understand by the column name

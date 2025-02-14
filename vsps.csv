@@ -1,0 +1,11 @@
+Transaction_ID,PAN_ID,Stop_Payment_Placed,Placement_Date,Merchant_Name,Stop_Payment_Reason,Stop_Payment_Status,Processing_Agent,Error_Code,Error_Description,Correction_Required
+TXN001,1234567890,Yes,10-01-2024,Best Electronics Inc,Customer Request,Success,-,-,-,No
+TXN002,2345678901,No,-,SmartMart Online,Unauthorized Charge,Failure,John Doe,SP-401,Invalid request format,Yes
+TXN003,3456789012,Yes,15-01-2024,Fashion Hub,Fraud Dispute,Success,-,-,-,No
+TXN004,4567890123,No,-,Digital World Inc,Recurring Charge,Failure,Alice Smith,SP-402,Insufficient details provided,Yes
+TXN005,5678901234,Yes,20-01-2024,Home Decor Plaza,Fradulent Activity,Success,-,-,-,No
+TXN006,6789012345,No,-,GameStop,Customer Request,Failure,Michael Brown,SP-403,Transaction already settled,Yes
+TXN007,7890123456,Yes,25-01-2024,Tech Paradise,Unauthorized Charge,Success,-,-,-,No
+TXN008,8901234567,No,-,Global Gadgets,Fraud Dispute,Failure,Sarah White,SP-404,Stop payment request expired,Yes
+TXN009,9012345678,Yes,30-01-2024,Furniture Express,Recurring Charge,Success,-,-,-,No
+TXN010,1023456789,No,-,Elite Fashion,Fradulent Activity,Failure,James Wilson,SP-405,Invalid merchant details,Yes

@@ -1,0 +1,11 @@
+Transaction_ID,Customer_ID,Card_ID,Merchant_Name,Transaction_Amount,Transaction_Date,Currency,Payment_Method,Card_Type,Last_4_Digits,Card_Issuer,3D_Secure_Status,Transaction_Status
+TXN001,CUST001,1111111111,Best Electronics Inc,$500.00,10-01-2024,USD,Credit Card,Visa,1234,Chase Bank,Verified,Completed
+TXN002,CUST002,2222222222,SmartMart Online,$1200.00,12-01-2024,USD,Debit Card,Mastercard,5678,Bank of America,Not Verified,Declined
+TXN003,CUST003,3333333333,Fashion Hub,$750.00,15-01-2024,EUR,Digital Wallet,Amex,9101,Wells Fargo,Verified,Completed
+TXN004,CUST004,4444444444,Digital World Inc,$999.99,18-01-2024,GBP,Credit Card,Visa,1122,Citi Bank,Not Verified,Chargeback Initiated
+TXN005,CUST005,5555555555,Home Decor Plaza,$399.99,20-01-2024,USD,Debit Card,Mastercard,3344,US Bank,Verified,Completed
+TXN006,CUST006,6666666666,GameStop,$650.00,22-01-2024,EUR,Credit Card,Amex,5566,Capital One,Not Verified,Declined
+TXN007,CUST007,7777777777,Tech Paradise,$899.99,25-01-2024,USD,Digital Wallet,Visa,7788,PNC Bank,Verified,Completed
+TXN008,CUST008,8888888888,Global Gadgets,$2500.00,28-01-2024,GBP,Credit Card,Mastercard,9900,TD Bank,Not Verified,Chargeback Initiated
+TXN009,CUST009,9999999999,Furniture Express,$300.00,30-01-2024,USD,Debit Card,Visa,2233,Chase Bank,Verified,Completed
+TXN010,CUST010,1234567890,Elite Fashion,$1100.00,01-02-2024,EUR,Credit Card,Amex,4455,Bank of America,Not Verified,Declined

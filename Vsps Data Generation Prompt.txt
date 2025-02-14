@@ -1,0 +1,24 @@
+Create a sample csv data of 10 rows with coloums
+Transaction_ID
+PAN_ID
+Stop_Payment_Placed
+Placement_Date
+Merchant_Name
+Stop_Payment_Reason
+Stop_Payment_Status
+Processing_Agent
+Error_Code
+Error_Description
+Correction_Required
+
+Transaction_ID is unique string identifiers
+PAN_ID is 10 digit integer
+Stop_Payment_Placed can be Yes or No
+Placement_Date is a date of format YYYY-MM-DD and will be - if Stop_Payment_Placed is No
+Merchant_Name is the name of merchant like Best Electronics Inc etc
+Stop_Payment_Reason can be Customer request, Fradulent Activity. Recurring Charge, Unauthorized Charge, Fraud Dispute
+Stop_Payment_Status will be Success for Stop_Payment_Placed Yes else Failure
+Processing_Agent will be a name when Stop_Payment_Placed will be No else it will be -
+Error_Code will be SP-401, SP-401 etc when Stop_Payment_Placed will be No else it will be -
+Error_Description will be some string when Stop_Payment_Placed will be No else it will be -
+Correction_Required will be Yes if Stop_Payment_Placed is No else it will be No
